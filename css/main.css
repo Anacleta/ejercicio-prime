@@ -1,0 +1,166 @@
+/* *{outline: solid 1px green;} */
+/* colores*/
+/*.a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.k,.l,.m,.n,.o,.p{
+	width: 200px;
+	height: 100px;
+}
+.a{background:#0dc0c0;}
+.b{background: #98a0a8;}
+.c{background: #fafafa;}
+.d{background: #888;}
+.e{background: #c9d1d6;}
+.f{background: #2d323a;}
+.g{background: #24282e;}
+.h{background: #384147;}
+.i{background: #32383f;}
+.j{background: #e8edef;}
+.k{background: #009ca8;}
+.l{background: #323a45;}
+.m{background: #f4f4f4;}
+.n{background: #444;}
+.o{background: #555;}
+.p{background: #363c46;} */
+/* colores*/
+
+header{
+	background: url("../img/background/hero.jpg") center top;
+	background-size: cover;
+	height:600px;
+}
+nav{
+	background: url("../img/background/city.jpg") center top;
+	background-size: cover;
+	height:220px;
+}
+footer{
+	background: url("../img/background/contactus.jpg")center top;
+	background-size: cover;
+	height:700px;
+}
+/* headerrrr*/
+header, nav, footer,aside,a {
+	color: #f4f4f4;
+}
+header ul li{
+	position: relative;
+	display: inline-block;
+	top: 24px;
+	margin-left: 20px;
+}
+header li a:hover{
+	transition:.5s;
+	color:#009ca8;
+	text-decoration: none;
+} 
+header h1{
+	margin-top: 180px;
+}
+.botones{
+	text-align: center;
+}
+
+/* iconos debajo dl header++++++++++++++++++*/
+.icon {/*+++++++++AVION*/
+	text-align: center;
+	color:#009ca8;
+	font-size: 35px;
+}
+.contenedor{
+	padding: 40px 35px;
+}
+.uno{
+	padding: 10px 20px;
+}
+
+/*computadora+++++++++++++++++++++++++++*/
+.compu{
+	background:#f4f4f4; 
+}
+
+/*iconos debajo de computadora++++++++++++*/
+.icon2{
+	color:#009ca8;
+	font-size:35px;
+}
+.contenedor1{
+	padding: 40px 35px;
+}
+.dos{
+	padding: 20px 20px;
+}
+.col-xs-1{
+	padding-left:0;
+}
+
+/*portafolio++++++++++++++++++++++++++++*/
+.portafolio, .contenedor2{
+	background: #f4f4f4;
+}
+/*portafolio menu +++++++++++++++++++++++++++faltaaaaaaaaaa*/
+.menup ul li{
+	position: relative;
+	display: inline-block;
+}
+.menup li a{
+	color: black;
+}
+.menup ul{
+	width: 100%;
+}
+.menup .col-xs-12{
+	text-align: center;
+}
+button {border:none;}
+.boton1{
+	background:#fafafa;
+}
+.boton1:hover{
+	background:#0dc0c0;
+}
+.boton1 a:hover{
+	color: #fafafa;
+	text-decoration: none;
+}
+
+/*portafolio imagenes +++++++++++++++++++++*/
+.blanco{
+	background:#fafafa;
+	margin: 15px 15px;
+}
+.img-responsive{
+	margin:0 auto;
+	padding-top: 2px;
+}
+.contenedor2 .blanco .img-responsive{
+	border: solid #fafafa 8px;
+}
+.blanco{
+	border: solid #e8edef 1px;
+}
+.boton{
+	background: #32383f;
+	color:#c9d1d6;
+	margin: 30px auto 10px;
+	position: relative;
+	display: block;
+}
+.cboton{
+	width: 100%;
+}
+
+/*diana*/
+.diana{
+	display: block;
+	margin: auto;
+	width:100px;
+	height:100px;
+	border-radius: 100%;
+}
+/* footer*/
+.redes{
+	font-size: 30px;
+}
+
+aside{
+	background:#24282e;;
+}
