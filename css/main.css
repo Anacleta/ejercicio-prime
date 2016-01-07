@@ -1,10 +1,10 @@
-/* *{outline: solid 1px green;} */
-/* colores*/
-/*.a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.k,.l,.m,.n,.o,.p{
+/* *{outline: solid 1px green;} 
+  colores
+.a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.k,.l,.m,.n,.o,.p{
 	width: 200px;
 	height: 100px;
 }
-.a{background:#0dc0c0;}
+.a{background: #0dc0c0;}
 .b{background: #98a0a8;}
 .c{background: #fafafa;}
 .d{background: #888;}
@@ -19,23 +19,46 @@
 .m{background: #f4f4f4;}
 .n{background: #444;}
 .o{background: #555;}
-.p{background: #363c46;} */
+.p{background: #363c46;}
 /* colores*/
+
+.btn{border-radius: 0;}
 
 header{
 	background: url("../img/background/hero.jpg") center top;
 	background-size: cover;
-	height:600px;
+	/*height:600px;
+	/*-webkit-filter: opacity(90%);*/
+	/*-webkit-filter: opacity(60%);*/
 }
+
+.opacity{
+	/*background-color:rgba(0,0,0,0.5)3*/
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 650px;	
+}
+
 nav{
 	background: url("../img/background/city.jpg") center top;
 	background-size: cover;
-	height:220px;
+
+}
+.opacity1{
+	/*background-color:rgba(0,0,0,0.5)3*/
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 420px;	
 }
 footer{
 	background: url("../img/background/contactus.jpg")center top;
 	background-size: cover;
-	height:700px;
+}
+.opacity2{
+	/*background-color:rgba(0,0,0,0.5)3*/
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	padding-bottom: 100px;
 }
 /* headerrrr*/
 header, nav, footer,aside,a {
@@ -48,16 +71,28 @@ header ul li{
 	margin-left: 20px;
 }
 header li a:hover{
-	transition:.5s;
+	transition:.1s;
 	color:#009ca8;
 	text-decoration: none;
 } 
 header h1{
 	margin-top: 180px;
 }
+
 .botones{
 	text-align: center;
 }
+.oboton{
+	color: #98a0a8;
+	background: #32383f;
+	padding: 10px;
+}
+.oboton:hover{color: white;}
+.lboton{
+	background: rgba(255,255,255,0.2);
+	padding: 10px;
+}
+.lboton:hover{color:#009ca8;}
 
 /* iconos debajo dl header++++++++++++++++++*/
 .icon {/*+++++++++AVION*/
@@ -110,16 +145,14 @@ header h1{
 .menup .col-xs-12{
 	text-align: center;
 }
-button {border:none;}
-.boton1{
+/* btn++++++++++++++++++++++++++++++++++++++*/
+
+.aboton{
 	background:#fafafa;
 }
-.boton1:hover{
+.aboton:hover{
 	background:#0dc0c0;
-}
-.boton1 a:hover{
 	color: #fafafa;
-	text-decoration: none;
 }
 
 /*portafolio imagenes +++++++++++++++++++++*/
@@ -137,18 +170,66 @@ button {border:none;}
 .blanco{
 	border: solid #e8edef 1px;
 }
-.boton{
-	background: #32383f;
-	color:#c9d1d6;
+.bboton{
+	color: #98a0a8;
+	background: #24282e;
 	margin: 30px auto 10px;
 	position: relative;
 	display: block;
+	width: 100px;
 }
-.cboton{
-	width: 100%;
+.bboton:hover{color:white;}
+
+/*cityyyy+++++++++++++++++++++++++++++++++++++++++++++++++*/
+.city{
+	margin-top: 100px;
 }
+/*precios++++++++++++++++++++++++++++++++++++++++*/
+.portafolio{
+	background: #f4f4f4;
+	padding: 10px 30px 40px;
+}
+.text{padding-bottom: 25px;}
+.black{
+	color: white;
+	background: #2d323a;
+	height: 100px;
+}
+.blue{
+	color:white;
+	background:  #0dc0c0;
+	height: 100px;
+}
+.gray{
+	background: #f4f4f4;
+	height: 100px;
+}
+.lista{
+	box-sizing:border-box;
+	padding: 30px 10px;
+	background: white;
+}
+.lista li{
+	/*border: none;*/
+	text-align: center;
+	padding: 20px 0;
+}
+.linea {
+	border-bottom: 1px solid gray;
+	width: 250px;
+	text-align: center;
+}
+.purchase{
+	color: #98a0a8;
+	background: #2d323a;
+	width: 140px;
+}
+.purchase:hover{color:white;}
 
 /*diana*/
+.what{
+	padding: 40px 0;
+}
 .diana{
 	display: block;
 	margin: auto;
@@ -156,11 +237,39 @@ button {border:none;}
 	height:100px;
 	border-radius: 100%;
 }
+.texto{
+	padding: 5px 60px 2px;
+}
+.nombre{
+	padding-bottom: 40px;
+}
 /* footer*/
 .redes{
 	font-size: 30px;
+	padding: 35px 0 0;
+}
+.redes a{
+	color: #2d323a;
+	text-decoration: none;
+}
+.cboton{
+	background: #0dc0c0;
 }
 
-aside{
-	background:#24282e;;
+article{
+	padding: 40px 0;
 }
+article h3{padding-bottom: 20px;}
+aside{
+	background:#24282e;
+	padding: 25px 0;
+}
+textarea, input{
+	background: rgba(255,255,255,0.1);
+	border:none;
+	padding: 10px 5px;
+}
+form{
+	margin-bottom: 15px;
+}
+

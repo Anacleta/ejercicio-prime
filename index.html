@@ -18,29 +18,37 @@
 </head>
 <body>
 
-<header class="container">
+<header>
+  <div class="opacity">
+  <div class="container">
+  
+  <div class="row"> 
 
-<div class="row">
-  <div class="col-sm-4"><h3><span class="icon_star-half_alt"></span> <b>PRIMES</b></h3></div>
-  <div class="col-sm-8">
-  <ul class="pull-right">
-    <li><a href="#"><b>Home</b></a></li>
-    <li><a href="#"><b>Features</b></a></li>
-    <li><a href="#"><b>Portafolio</b></a></li>
-    <li><a href="#"><b>Pricing</b></a></li>
-    <li><a href="#"><b>Contact</b></a></li>
-  </ul></div>
-</div>
+    <div class="col-sm-4"><h3><span class="icon_star-half_alt"></span> <b>PRIMES</b></h3></div>
+    <div class="col-sm-8">
+    <ul class="pull-right">
+      <li><a href="#"><b>Home</b></a></li>
+      <li><a href="#more-features"><b>Features</b></a></li>
+      <li><a href="#portfolio"><b>Portafolio</b></a></li>
+      <li><a href="#pricing"><b>Pricing</b></a></li>
+      <li><a href="#contact"><b>Contact</b></a></li>
+    </ul></div>
+  </div>
 
   <h1 class="text-center">Launch Yuor <b>Business</b> with <b>Primes</b></h1>
   <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqualaborum Lorem ipsum dolor sit amet, consectetur adipisicing elit
   </p>
+
   <div class="botones">
-    <button class="btn">Our Portafolio</button>
-    <button class="btn">Learn More</button>
+    <a href="#" class="oboton btn"><b>Our Portafolio</b></a>
+    <a href="#" class="lboton btn"><b>Learn More</b></a>
   </div>
 
+</div>
+
+</div><!--fin de opacity++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
 </header>
+
 
 <section class="container contenedor">
 <div class="row"> 
@@ -85,11 +93,14 @@
 
 </section>
 
-<section class="container compu">
+<section class="compu" id="more-features">
+<div class="container">
 
   <h3 class="text-center">More Features</h3>
+  
   <img src="img/laptop-features.png" class="img-responsive">
 
+</div>  
 </section>
 
 <section class="container contenedor1">
@@ -157,7 +168,8 @@
 
 </section>
 
-<section class="container portafolio">
+<div class="portafolio" id="portfolio">
+<section class="container">
 
   <h3 class="text-center">Portafolio</h3>
   <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -165,11 +177,11 @@
    </p>
  <div class="row menup">
   <ul class="col-xs-12"><!--MENU PORTAFOLIO-->
-    <li><button class="boton1"><a href="#"><b>Show all</b></a></button></li>
-    <li><button class="boton1"><a href="#"><b>Identify</b></a></button></li>
-    <li><button class="boton1"><a href="#"><b>Web Design</b></a></button></li>
-    <li><button class="boton1"><a href="#"><b>Graphic</b></a></button></li>
-    <li><button class="boton1"><a href="#"><b>Logo</b></a></button></li>
+    <li><a href="#" class="aboton btn"><b>Show all</b></a></li>
+    <li><a href="#" class="aboton btn"><b>Identify</b></a></li>
+    <li><a href="#" class="aboton btn"><b>Web Design</b></a></li>
+    <li><a href="#" class="aboton btn"><b>Graphic</b></a></li>
+    <li><a href="#" class="aboton btn"><b>Logo</b></a></li>
   </ul>  
  </div>
   
@@ -231,74 +243,95 @@
   </div>
 </div>
 
-<div class="cboton"><button class="boton"><b>Load More</b></button></div>
+<a class="bboton btn" href="#"><b>Load More</b></a>
+
 
 </section>
+</div>
 
-<nav class="container" >
 
-  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut </p>
-  <p class="text-center">tempor incididunt ut labore</p>
-  <p class="text-center"><b>Call to Action</b></p>
+<nav id="pricing">
+  <div class="opacity1">
+  <div class="container">
 
+    <div class="city"><p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut </p>
+    <p class="text-center">Tempor incididunt ut labore</p></div>
+    <p class="text-center city"><b>Call To Action</b></p>
+
+  </div>
+  </div>
 </nav>
 
-<section class="container text-center">
+<div class="portafolio">
+<section class="container">
 
-<h3 >Choose The package</h3>
-<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-<!--aqui falta colocar los 3 recuadrros con precios-->
-<div class="row">
+<h3 class="text-center">Choose The package</h3>
+<p class="text-center text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+<!--3 recuadrros con precios-------------------------------------------------------------->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+      <ul class="list-group lista">
+        <li class="list-group-item black"><h3>Standard</h3></li>
+        <li class="list-group-item gray"><h4>From $45.00 per month</h4></li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item"><a href="#" ><div class="btn purchase">Purchase</div></a></li>
 
-  <div class="col-sm-4 ">
-      <div><a href="#">Standart</a></div><div>From $45.99 per month</div>
-    
-      <p>Vestibulum est magna</p>
-      <p>Vestibulum est magna</p>
-      <p>Vestibulum est magna</p>
-      <p>Vestibulum est magna</p>
+      </ul>
+    </div>
 
-    <div><a href="#">Purchase</a></div>
+    <div class="col-sm-4 ">
+      <ul class="list-group lista">
+        <li class="list-group-item blue"><h3>Premium</h3></li>
+        <li class="list-group-item gray"><h4>From $45.00 per month</h4></li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item"><a href="#" ><div class="btn purchase">Purchase</div></a></li>
+
+      </ul>
+    </div>
+
+    <div class="col-sm-4">
+      <ul class="list-group lista">
+        <li class="list-group-item black"><h3>Ultimate</h3></li>
+        <li class="list-group-item gray"><h4>From $99.00 per month</h4></li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
+        <li class="list-group-item"><a href="#" ><div class="btn purchase">Purchase</div></a></li>
+
+      </ul>
+    </div>
+
   </div>
+</div>
 
-  <div class="col-sm-4">
-      <div><a href="#">Premuum</a></div><div>From $75.<small>00</small> per month</div>
-    
-      <p>Vestibulum est magna</p>
-      <p>Vestibulum est magna</p>
-      <p>Vestibulum est magna</p>
-      <p>Vestibulum est magna</p>
-
-    <div><a href="#">Purchase</a></div>
-  </div>
-
-  <div class="col-sm-4">
-      <div><a href="#">Ultimate</a></div><div>From $99.99 per month</div>
-    
-      <p>Vestibulum est magna</p>
-      <p>Vestibulum est magna</p>
-      <p>Vestibulum est magna</p>
-      <p>Vestibulum est magna</p>
-
-    <div><a href="#">Purchase</a></div>
-  </div>
-
-</div><!--fin del row de los precios-->
+<!--fin del row de los precios-------------------------------------------------------------------------->
 
 </section>
+</div>
 
 <section class="container ">
 
-<h3>What our custimers have to say...</h3>
+<h3 class="text-center what">What our custimers have to say...</h3>
 <img src="img/customer.jpg" class="diana">
-<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<p class="text-center texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod</p>
-<p ><b>-Diana Rosswert</b></p>
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore</p>
+<p class="text-center nombre"><b>-Diana Rosswert</b></p>
 </section>
 
-<footer class="container">
+<footer id="contact">
+  <div class="opacity2">
+  <div class="container">
 
   <h3 class="text-center">Contact Us</h3>
   <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
@@ -307,16 +340,18 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod</p>
   <div class="col-sm-6">
   <h4>Sent message</h4>
   <form>
-    <input type="text" size="39" placeholder="Email">
+    <input type="text" size="50" placeholder="Email">
   </form>
   <form>
-    <input type="text" size="39" placeholder="Subject">
+    <input type="text" size="50" placeholder="Subject">
   </form>
   <form>
-  <textarea name="text" cols="40" rows="5" placeholder="Message"></textarea>
+  <textarea name="text" cols="52" rows="7" placeholder="Message"></textarea>
   </form>
 
-  <button class="btn">Submit</button></div>
+  <a href="#" class="cboton btn"><b>Submit</b></a>
+
+  </div>
 
   <div class="col-sm-6">
   <h4>About Us</h4>
@@ -336,6 +371,9 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod</p>
   <p><span class="icon_phone"></span>  phone: 0011 222 335 7773</p></div>
 
 </div>
+
+</div>
+</div>
 </footer> 
 
 <article class="container text-center">
@@ -345,21 +383,26 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod</p>
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. </p>
 <div class="redes">
-<span class="social_facebook"></span>
-<span class="social_twitter"></span>
-<span class="social_linkedin"></span>
-<span class="ion-social-pinterest"></span>
-<span class="social_googleplus"></span>
+
+<a href="#"><span class="social_facebook"></span></a>
+<a href="#"><span class="social_twitter"></span></a>
+<a href="#"><span class="social_linkedin"></span></a>
+<a href="#"><span class="ion-social-pinterest"></span></a>
+<a href="#"><span class="social_googleplus"></span></a>
+
 </div>
 
 </article>
 
-<aside class="container text-center">
+<aside class="text-center">
 
  &copy; primes 2015-laboratoria.la
 </aside>
 </body>
 
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</html>
 <!--COLORES
 <div class="a">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
 <div class="b">BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB</div>
@@ -376,8 +419,6 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. </p>
 <div class="m">MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM</div>
 <div class="n">NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</div>
 <div class="o">OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</div>
-<div class="p">PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP</div> -->
+<div class="p">PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP</div>
 
-
-
-</html>
+-->
